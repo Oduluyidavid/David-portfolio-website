@@ -10,14 +10,17 @@ export default {
   ],
   
   theme: {
-    extend: {},
-    screens: {
-      'xl': {'max': '1200px'},
-      'lg': {'max': '991px'},
-      'md': {'max': '767px'},
-      'sm': {'max': '550px'},
-      'xsm': {'max': '425px'},
-    }
+    extend: {
+      colors: {
+        primary: '#111',
+        secondary:'#7843e9',
+        tertiary:'#555',
+        light: '#333',
+        
+      }
+
+    },
+   
   },
   plugins: [],
   
