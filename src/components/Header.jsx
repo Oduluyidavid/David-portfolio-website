@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import logo from "../assets/profile-pic3.jpg";
 import { Link } from "react-scroll";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import { useDarkMode } from "./DarkModeContext";
 
 const Header = () => {
   let navItems = [

@@ -1,6 +1,8 @@
 import Foodify from "../public/assets/foodify.jpg"
 import TodoList from "../public/assets/to-do-list.jpg"
 import Calculator from "../public/assets/java calapp.jpg"
+import Travelwebsite from "../public/assets/travel website.jpg"
+
 
 const projects = [
   {
@@ -24,6 +26,14 @@ const projects = [
     description: "This is a Javascript calculator app used in calculating all numeruous values and more so serve as means of postive response to all arithemetic values",
     image: Calculator,
     link: "https://calculator-app-self-one.vercel.app/"
+  },
+
+  {
+    id: 4,
+    name: "Travel website",
+    description: "This is a website built with react and tailwinds css, it is just a website interface which combine using of data and API to make the project looks attractive and this API helps to fasten the importing of the images to increase the speed of the data usage.",
+    image:Travelwebsite,
+    link: "https://travel-website-flax-omega.vercel.app/"
   },
 
   
