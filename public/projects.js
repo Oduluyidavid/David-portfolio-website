@@ -2,6 +2,7 @@ import Foodify from "../public/assets/foodify.jpg"
 import TodoList from "../public/assets/to-do-list.jpg"
 import Calculator from "../public/assets/java calapp.jpg"
 import Travelwebsite from "../public/assets/travel website.jpg"
+import realestatewebsite from "../public/assets/real estate website.jpg"
 
 
 const projects = [
@@ -34,6 +35,14 @@ const projects = [
     description: "This is a website built with react and tailwinds css, it is just a website interface which combine using of data and API to make the project looks attractive and this API helps to fasten the importing of the images to increase the speed of the data usage.",
     image:Travelwebsite,
     link: "https://travel-website-flax-omega.vercel.app/"
+  },
+
+  {
+    id: 5,
+    name: "Real estate website",
+    description: "This website serve as a purpose for the application of a real estate it brings up with motivation of how clients buys and rent houses more which attract a feedback of how the website make them patronize it more.",
+    image:realestatewebsite,
+    link: "https://real-estate-website-two-omega.vercel.app/"
   },
 
   

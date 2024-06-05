@@ -52,7 +52,7 @@ const Footer = () => {
       
       <div>
         <p className="md:my-10 py-10 md:py-0 text-sm leading-7 text-[#eee] text-center">
-          Copyright 2024. Made by DAVID ODULUYI, All rights reserved.
+          Copyright 2024. Made by DAVID ODULUYI, All Rights Reserved.
         </p>
       </div>
     </div>
